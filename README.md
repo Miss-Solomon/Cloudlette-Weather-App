@@ -41,7 +41,7 @@ weather-app/
 1. **Clone the repo:**
 
 ```bash
-git clone https://github.com/miss-solomon/cloudlette-weather-app.git
+git clone https://github.com/Miss-Solomon/Cloudlette-Weather-App.git
 ````
 
 2. **Open the project folder:**
