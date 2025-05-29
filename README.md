@@ -21,7 +21,7 @@ Cloudlette Weather App is a simple browser-based app that shows the current weat
 
 ```
 
-weather-app/
+cloudlette-weather-app/
 ├── index.html             # Main app page
 ├── privacy.html           # Privacy notice page
 ├── privacy.css            # Styles for privacy page
