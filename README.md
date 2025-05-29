@@ -47,7 +47,7 @@ git clone https://github.com/Miss-Solomon/Cloudlette-Weather-App.git
 2. **Open the project folder:**
 
 ```bash
-cd cloudlette-weather-app/weather-app
+cd cloudlette-weather-app
 ```
 
 3. **Launch the app:**
