@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  /* A light blue gradient background */
+  background: linear-gradient(135deg, #add8e6, #e0ffff);
+  margin: 0;
+  padding: 0;
+  /* Center the container vertically & horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container to center all content */
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Headings and Form Styling */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: calc(100% - 22px); /* accounts for padding/border */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #007BFF;
+}
+
+button {
+  padding: 10px 15px;
+  width: 100%;
+  background-color: #add8e6;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #60bbda;
+}
+
+/* Weather Result Card */
+#weatherResult {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Current Weather Section */
+.current-weather {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.current-weather i {
+  font-size: 80px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Forecast Section */
+.forecast h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.forecast-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.forecast-day {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  width: 120px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.forecast-day:hover {
+  transform: translateY(-5px);
+}
+
+.forecast-day i {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 5px;
+}
